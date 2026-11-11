@@ -1,0 +1,53 @@
+name: Use case
+description: Describe a concrete deliberation situation, its steps, constraints, and risks.
+title: "[Use case] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe one concrete situation in everyday language. Real experiences and clearly marked hypothetical examples are welcome.
+        A user story describes a need; a use case adds the situation, steps, and conditions around it. You do not need an existing user-story issue or a technical solution. For a shorter need, you can also use https://github.com/dds-wg/dds/issues/new?template=user-story.yml
+        Rough drafts are welcome. Only the first question is required; leave unknown details blank so we can refine them together.
+        Feel free to put your whole contribution in the first box, including rough notes or a link to an existing public document. There is no need to rewrite it to match the questions.
+        This issue will be public. Use roles rather than personal details, and do not include private contact information, identifiable participant data, or restricted links.
+        GitHub is optional. You can also share through Matrix, the public mailing list, or an open call: https://github.com/dds-wg/dds/blob/main/USE-CASES.md#other-ways-to-contribute
+        Guidance and a worked example: https://github.com/dds-wg/dds/blob/main/USE-CASES.md
+        Related cases: https://github.com/dds-wg/dds/issues?q=is%3Aissue%20in%3Atitle%20%22%5BUse%20case%5D%22
+  - type: textarea
+    id: situation
+    attributes:
+      label: 1. What is the situation, and what should people achieve?
+      description: Describe the problem and why the outcome matters. Say whether this comes from your experience, user feedback, or a hypothetical example.
+      placeholder: "In a [setting or process], [person or role] needs to [achieve an outcome], because [reason]. Today, [difficulty]."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 2. Who is involved, and what is true at the start?
+      description: Name roles and affected people, not private identities. Note relevant process rules or assumptions, what is already in place, and what starts the scenario.
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 3. What happens, step by step?
+      description: Describe a short path from the starting event to the desired outcome. Say who does what and what information moves between people or tools. Avoid prescribing a product, protocol, or interface unless it is an existing constraint.
+      placeholder: |
+        1. [Role] starts by...
+        2. [Another role or service]...
+        3. The process ends when...
+  - type: textarea
+    id: requirements
+    attributes:
+      label: 4. What conditions must hold, and how would we check success?
+      description: List observable outcomes and essential conditions. Where relevant, distinguish what is required, optional, or prohibited, and explain why. Consider participation rules, privacy, accessibility, consent, and information that must survive a transfer. Mark unknowns rather than assuming they do not matter.
+  - type: textarea
+    id: risks
+    attributes:
+      label: 5. What could happen differently or go wrong, and what must never happen?
+      description: Describe variations, failures, misuse, or unsafe combinations. Who could be harmed, and what should happen if a condition cannot be met? Include safeguards that must hold even if the process fails. You do not need to solve the risks to report them.
+      placeholder: "For example, a transfer must not expose identities from a process that requires anonymity. If that protection cannot be preserved, the transfer must not silently proceed."
+  - type: textarea
+    id: references
+    attributes:
+      label: 6. What related stories, examples, or open questions would help?
+      description: Link related user stories or use cases, public documentation, or existing work. Note unresolved questions and any unavoidable existing technical constraints, separately from suggested solutions. No supporting links are required.

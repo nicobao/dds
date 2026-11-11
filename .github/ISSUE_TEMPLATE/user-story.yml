@@ -7,6 +7,9 @@ body:
       value: |
         Describe one need in everyday language, without assuming a particular tool or protocol.
         Rough drafts are welcome. Only the first question is required.
+        For a concrete situation with steps and constraints, you can also use the use-case form: https://github.com/dds-wg/dds/issues/new?template=use-case.yml
+        Neither format is mandatory. Put rough notes in the first box, or share through Matrix, the public mailing list, or an open call: https://github.com/dds-wg/dds/blob/main/USE-CASES.md#other-ways-to-contribute
+        This issue will be public. Do not include private contact details, identifiable participant information, or restricted links.
         Related stories: https://github.com/dds-wg/dds/issues?q=is%3Aissue%20in%3Atitle%20%22%5BUser%20story%5D%22
   - type: textarea
     id: story

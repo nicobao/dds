@@ -35,6 +35,8 @@ pnpm dev
 
 ## Contributing
 
+Help identify what DDS should support: [share a user story](https://github.com/dds-wg/dds/issues/new?template=user-story.yml) or [describe a concrete use case](https://github.com/dds-wg/dds/issues/new?template=use-case.yml). Rough notes and informal contributions through Matrix, the public mailing list, or an open call are equally welcome. The forms are optional guides. See the [examples and contribution options](./USE-CASES.md).
+
 See [CONTRIBUTING.md](./CONTRIBUTING.md) and the W3C Community Group
 [GOVERNANCE.md](https://github.com/dds-wg/.github/blob/main/GOVERNANCE.md).
 
